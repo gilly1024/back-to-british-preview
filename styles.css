@@ -454,3 +454,141 @@ button{cursor:pointer}
 @media(max-width:1240px){.brand{min-width:195px}.brand-wordmark{font-size:.83rem}.brand .brand-emblem{width:46px;height:57px}}
 @media(max-width:960px){.brand{min-width:unset}.brand-wordmark{font-size:.85rem}.brand .brand-emblem{width:43px;height:53px}}
 @media(max-width:640px){.brand{gap:5px;min-width:unset}.brand .brand-emblem{width:37px;height:48px}.brand-wordmark{font-size:.69rem;letter-spacing:.08em}.brand-descriptor{font-size:.40rem;letter-spacing:.18em}.header-inner{gap:8px}.contact-link{font-size:.51rem;padding:9px 6px}.menu-button{padding:10px}}
+
+/* Fashion-first public edition: HD campaign, photographic nations, British red */
+:root{--scarlet:#c8102e;--scarlet-deep:#970c25}
+.cinematic-landscape{display:none}
+.cinematic-hero{min-height:670px;background:#152336}
+.cinematic-hero::before{content:"";position:absolute;inset:0;z-index:-2;background:radial-gradient(ellipse at 88% 32%,#304763 0%,#13253e 42%,#0b1c30 91%)}
+.cinematic-hero::after{background:linear-gradient(90deg,#071627eb 0%,#0b1a2b9b 36%,#0c1c3012 65%),linear-gradient(0deg,#091a2c9a,transparent 27%);z-index:-1}
+.cinematic-hero-inner{min-height:590px;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);padding-top:26px;padding-bottom:22px;gap:22px}
+.cinematic-copy{padding:24px 0 15px}
+.cinematic-copy h1{font-size:clamp(3.85rem,6.05vw,7rem);letter-spacing:-.062em;max-width:670px}
+.cinematic-copy h1 em{white-space:normal}
+.cinematic-copy p{font-family:var(--body);font-size:clamp(.97rem,1.04vw,1.14rem);line-height:1.76;max-width:435px;color:#d6dce1}
+.campaign-kicker{color:#d9c9b6}
+.campaign-line{background:var(--scarlet);width:39px;height:2px}
+.campaign-primary{background:#f4f1e9;color:#172435;border-color:#fff;font-size:.66rem}
+.campaign-primary:hover{background:#fff}
+.campaign-primary .arrow-icon{stroke:var(--scarlet)}
+.campaign-qualities{margin-top:41px}
+.cinematic-stage{height:550px}
+.cinematic-stage::before{border-color:#f4e1c334;background:#1b2c42;transform:rotate(0);inset:8% 3% 9% -3%}
+.campaign-film-main,.campaign-film-secondary{transform:none;animation:none;border:1px solid #fff6}
+.campaign-film-main{height:89%;width:58%;top:5%;left:0;z-index:2}
+.campaign-film-secondary{height:83%;width:43%;top:11%;right:0;z-index:3}
+.campaign-film video{filter:saturate(.98) contrast(1.015);image-rendering:auto;object-position:50% center}
+.campaign-film::after{background:linear-gradient(0deg,#0b1a2f9e,transparent 24%)}
+.stage-ruler-top{left:5%;top:0}
+.stage-ruler-bottom{right:0;bottom:0}
+.stage-serif{display:none}
+.cinematic-atmosphere{opacity:.14}
+.cinematic-bottomline{padding:12px 0 14px}
+.cinematic-disclosure{font-size:.68rem;color:#58606c;padding:0 0 5px}
+.brand .crest-outline{stroke:#101e31;stroke-width:2.4}
+.brand .crest-inner{stroke:#c8102e;stroke-width:1.3}
+.brand .crest-letter{fill:#111f35;font-weight:700}
+.brand .crest-branch{stroke:#c8102e;stroke-width:1.8}
+.brand .brand-descriptor{color:#a00e28}
+.main-nav a:hover{color:var(--scarlet)}
+.shop-routes{background:#f7f5f0;padding-top:57px;padding-bottom:75px}
+.shop-intro{display:flex;align-items:end;justify-content:space-between;gap:35px;margin-bottom:25px;flex-wrap:wrap}
+.shop-intro h2{font:400 clamp(2.2rem,3.5vw,3.6rem)/1.12 var(--serif);margin:9px 0 0}
+.shop-intro p{font-size:.9rem;max-width:370px;color:#626b74;margin:0 0 5px}
+.shop-route-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}
+.shop-route{height:clamp(285px,30vw,430px);position:relative;isolation:isolate;overflow:hidden;background:#24344a;color:white;display:block;box-shadow:0 8px 26px #14233415}
+.shop-route img{width:100%;height:100%;object-fit:cover;object-position:center 25%;transition:transform 900ms cubic-bezier(.22,.85,.15,1);filter:saturate(.87)}
+.shop-route:nth-child(2) img{object-position:center 18%}
+.shop-route:nth-child(3) img{object-position:center 23%}
+.shop-route:hover img,.shop-route:focus-visible img{transform:scale(1.08)}
+.shop-route::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#071523d9 0%,#14213226 50%,transparent);pointer-events:none}
+.shop-route-text{position:absolute;bottom:24px;left:22px;right:22px;z-index:2;display:flex;flex-direction:column;gap:7px}
+.shop-route-text small{font-size:.6rem;letter-spacing:.17em;color:#e0d7c9}
+.shop-route-text strong{font:400 clamp(1.9rem,2.45vw,3rem) var(--serif);line-height:1.05}
+.shop-route-text em{display:flex;align-items:center;gap:12px;font:700 .59rem var(--body);letter-spacing:.12em;margin-top:6px}
+.shop-route-text em svg{width:15px;stroke:var(--scarlet)}
+.fashion-disclosure{font-size:.68rem;color:#72757a;margin-top:13px}
+.is-home .ranges-section{background:#fffefa;padding-top:75px}
+.wardrobe-range-card .range-image{background:linear-gradient(137deg,#d3d1c8,#c1c2be)!important;height:195px;overflow:hidden}
+.wardrobe-range-card:nth-child(4n+2) .range-image{background:linear-gradient(130deg,#ddd2c7,#bab3ab)!important}
+.wardrobe-range-card:nth-child(4n+3) .range-image{background:linear-gradient(130deg,#cad2d2,#a8b7b7)!important}
+.wardrobe-range-card:nth-child(4n) .range-image{background:linear-gradient(120deg,#e1dcd3,#b7b9be)!important}
+.wardrobe-range-card .range-image::before{background:repeating-linear-gradient(90deg,#fff3 0 1px,transparent 1px 7px);opacity:.26}
+.wardrobe-range-card .range-image::after{display:none}
+.range-large-letter{font:400 9.5rem/.9 Georgia,serif;color:#24334a22;letter-spacing:-.11em;z-index:1;transition:transform .5s}
+.wardrobe-range-card:hover .range-large-letter{transform:scale(1.15)}
+.wardrobe-range-card .range-label{background:#f8f5ed;color:#233648;padding:7px 10px;left:13px;bottom:13px;font-size:.56rem}
+.nations-section{background:#11253b;padding:87px 0}
+.nations-section .section-heading h2{font-size:clamp(2.1rem,3.2vw,3.5rem)}
+.nations-section .eyebrow{color:#e6c4a5}
+.nation-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.nation-tile{position:relative;isolation:isolate;min-height:365px;padding:23px 18px;background:#1e384d;display:flex;flex-direction:column;justify-content:end;transition:transform .45s ease,filter .45s ease;overflow:hidden}
+.nation-tile:hover{transform:translateY(-6px);filter:brightness(1.1)}
+.nation-tile::before{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(0deg,#071826ed 0%,#0c233050 45%,transparent 85%);opacity:1;pointer-events:none}
+.nation-tile::after{background:#c8102e}
+.nation-photo{position:absolute;width:100%;height:100%;inset:0;object-fit:cover;transition:transform 1000ms ease;filter:saturate(.8) contrast(1.05)}
+.nation-tile:hover .nation-photo{transform:scale(1.07)}
+.nation-number{position:absolute;top:18px;left:17px;font-size:.52rem;color:#fff;z-index:2;letter-spacing:.14em;font-weight:700;text-shadow:0 1px 4px #000a}
+.nation-tile-title{z-index:2;font-size:clamp(1.4rem,1.6vw,2.15rem)}
+.nation-tile-copy{z-index:2;color:#f0f0eccc;font-size:.7rem;line-height:1.5;min-height:68px}
+.nation-tile .tile-cta{z-index:2;color:#f7ece0}
+.nation-tile .tile-cta svg{stroke:#ff3757}
+.cinematic-manifesto{margin-top:0}
+.cinematic-manifesto-image img{filter:grayscale(.8) sepia(.17) contrast(1.03) brightness(.7)}
+@media(max-width:1240px){
+ .shop-route-grid{gap:11px}
+ .shop-route-text{left:16px;right:12px}
+ .nation-tile{padding:20px 13px}
+}
+@media(max-width:960px){
+ .cinematic-hero-inner{grid-template-columns:1fr;min-height:auto;padding-top:45px}
+ .cinematic-copy h1{font-size:clamp(3.8rem,8.6vw,6.6rem)}
+ .cinematic-stage{height:440px;margin:12px auto 0}
+ .campaign-film-main{height:88%;width:55%;left:4%}
+ .campaign-film-secondary{height:81%;width:43%;right:3%}
+ .shop-route-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .shop-route{height:420px}
+ .nation-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .nation-tile{min-height:330px}
+}
+@media(max-width:640px){
+ .cinematic-hero-inner{padding-top:36px}
+ .cinematic-copy h1{font-size:clamp(3.25rem,10.8vw,4.6rem);margin:25px 0 20px}
+ .cinematic-copy p{font-size:.98rem}
+ .cinematic-stage{height:325px}
+ .campaign-film-main{width:55%;left:0;top:3%;height:90%}
+ .campaign-film-secondary{width:46%;right:0;top:14%;height:77%}
+ .shop-routes{padding-top:38px;padding-bottom:45px}
+ .shop-intro{margin-bottom:20px;gap:10px}
+ .shop-intro p{font-size:.86rem}
+ .shop-route-grid{gap:9px}
+ .shop-route{height:280px}
+ .shop-route-text{left:11px;right:9px;bottom:15px}
+ .shop-route-text small{font-size:.46rem;letter-spacing:.09em}
+ .shop-route-text strong{font-size:1.85rem}
+ .shop-route-text em{font-size:.46rem;gap:6px;letter-spacing:.04em}
+ .shop-route-text em svg{width:13px}
+ .wardrobe-range-card .range-image{height:145px}
+ .range-large-letter{font-size:7rem}
+ .nation-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .nation-tile{min-height:245px}
+ .nation-tile:last-child{grid-column:1/-1;min-height:240px}
+ .nation-tile-title{font-size:1.4rem}
+ .nation-tile-copy{min-height:52px;font-size:.65rem}
+ .nation-tile .tile-cta{font-size:.52rem}
+}
+
+/* Mobile-first campaign impression: show fashion before the brand narrative */
+@media(max-width:640px){
+ .cinematic-hero-inner{display:flex;flex-direction:column-reverse;align-items:stretch;padding-top:25px;gap:0}
+ .cinematic-stage{width:100%;height:305px;min-height:0;margin:0 0 29px}
+ .stage-ruler-top{top:0;left:5%;font-size:.53rem}
+ .campaign-film-main{height:86%;width:57%;left:2%;top:8%}
+ .campaign-film-secondary{height:80%;width:45%;right:2%;top:14%}
+ .cinematic-copy{padding:0 0 28px;width:100%}
+ .cinematic-copy h1{margin:20px 0 19px;font-size:clamp(3.2rem,10vw,4.45rem)}
+ .cinematic-copy p{margin-bottom:20px}
+ .cinematic-actions{gap:11px}
+ .campaign-qualities{margin-top:21px}
+ .cinematic-bottomline{padding:13px 0}
+}
