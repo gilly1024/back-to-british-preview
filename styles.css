@@ -71,7 +71,7 @@ button{cursor:pointer}
 .hero-features{display:flex;align-items:center;gap:14px;color:#d8cab7;font-size:.59rem;letter-spacing:.20em;margin-top:35px}
 .hero-features i{display:block;width:17px;height:1px;background:var(--gold)}
 .hero-editorial{position:relative;height:100%;min-height:0;display:flex;align-items:stretch;padding:24px 3.5% 0 1.4%;gap:clamp(8px,1vw,17px);overflow:hidden}
-.hero-editorial::before{content:"";position:absolute;inset:8% 2% 0 7%;background:linear-gradient(130deg,#0b1b2a8a,#112a45c9),url('/back-to-british/assets/history/westminster.webp') center/cover no-repeat;opacity:.48;border-top:1px solid #d6b78560;pointer-events:none}
+.hero-editorial::before{content:"";position:absolute;inset:8% 2% 0 7%;background:linear-gradient(130deg,#0b1b2a8a,#112a45c9),url('/back-to-british-preview/assets/history/westminster.webp') center/cover no-repeat;opacity:.48;border-top:1px solid #d6b78560;pointer-events:none}
 .editorial-photo{margin:0;position:relative;overflow:hidden;align-self:center;height:75%;width:24%;min-width:0;background:#435267;border:1px solid #e4d6c526;box-shadow:0 17px 48px #0007;transform:perspective(850px) rotateY(-3deg);filter:saturate(.68)}
 .editorial-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#0a172a58,transparent 40%),linear-gradient(130deg,#14223c55,transparent 64%);pointer-events:none}
 .editorial-photo img{width:100%;height:100%;object-fit:cover}
@@ -322,7 +322,7 @@ button{cursor:pointer}
 .is-home .utility{background:#101923;letter-spacing:.24em}
 .cinematic-hero{min-height:min(780px,calc(100svh - 120px));position:relative;overflow:hidden;isolation:isolate;background:#111c28;color:#f6f1e8}
 .cinematic-hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,#0b1724f2 0%,#0b1724d6 36%,#0b172469 65%,#07121d50 100%),linear-gradient(0deg,#050c17bb,transparent 30%)}
-.cinematic-landscape{position:absolute;inset:-7%;z-index:-3;background:url('/back-to-british/assets/history/westminster.webp') center 42%/cover no-repeat;filter:grayscale(.48) sepia(.26) saturate(.65) brightness(.60);transform:scale(1.09);animation:campaign-landscape 26s ease-in-out infinite alternate}
+.cinematic-landscape{position:absolute;inset:-7%;z-index:-3;background:url('/back-to-british-preview/assets/history/westminster.webp') center 42%/cover no-repeat;filter:grayscale(.48) sepia(.26) saturate(.65) brightness(.60);transform:scale(1.09);animation:campaign-landscape 26s ease-in-out infinite alternate}
 .cinematic-atmosphere{position:absolute;z-index:-2;inset:-10%;opacity:.42;pointer-events:none;background:radial-gradient(ellipse at 70% 34%,#bbc3c32b,transparent 51%),radial-gradient(ellipse at 35% 75%,#c3b9a527,transparent 62%);filter:blur(32px);animation:campaign-mist 18s ease-in-out infinite alternate}
 .cinematic-hero-inner{width:min(100% - 112px,1510px);margin:0 auto;min-height:min(718px,calc(100svh - 180px));display:grid;grid-template-columns:minmax(0,.87fr) minmax(0,1.13fr);align-items:center;gap:clamp(22px,3.4vw,70px);position:relative;padding:58px 0 34px}
 .cinematic-copy{position:relative;z-index:4;max-width:725px;padding:20px 0 46px}
