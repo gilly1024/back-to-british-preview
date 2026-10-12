@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 48" role="img" aria-label="Stylised Union Flag accent">
+  <clipPath id="c"><rect width="80" height="48" rx="2"/></clipPath><g clip-path="url(#c)">
+  <rect width="80" height="48" fill="#152b46"/>
+  <path d="M0 0 80 48M80 0 0 48" stroke="#fff" stroke-width="13"/>
+  <path d="M0 0 80 48M80 0 0 48" stroke="#9c2634" stroke-width="5"/>
+  <path d="M40 0v48M0 24h80" stroke="#fff" stroke-width="15"/>
+  <path d="M40 0v48M0 24h80" stroke="#a52634" stroke-width="8"/>
+  </g>
+</svg>
